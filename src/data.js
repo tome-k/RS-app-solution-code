@@ -1,7 +1,7 @@
-import Img_1 from "./images/athens.jpg";
-import Img_2 from "./images/acropolis.jpg";
-import Img_3 from "./images/greece.jpg";
-import Img_4 from "./images/greece2.jpg";
+import Img_1 from "./assets/athens.jpg";
+import Img_2 from "./assets/acropolis.jpg";
+import Img_3 from "./assets/greece.jpg";
+import Img_4 from "./assets/greece2.jpg";
 
 const views = [
   {
