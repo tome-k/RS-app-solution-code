@@ -72,7 +72,7 @@ function Navbar() {
                   More
                 </Link>
               </li>
-              <li className="nav-btn">
+              {/* <li className="nav-btn">
                 {button ? (
                   <Link to="/sign-up" className="btn-link">
                     <Button buttonStyle="btn--outline">Join Us</Button>
@@ -88,7 +88,7 @@ function Navbar() {
                     </Button>
                   </Link>
                 )}
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

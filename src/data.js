@@ -2,39 +2,54 @@ import Img_1 from "./assets/athens.jpg";
 import Img_2 from "./assets/acropolis.jpg";
 import Img_3 from "./assets/greece.jpg";
 import Img_4 from "./assets/greece2.jpg";
+import Img_5 from "./assets/parthenon.jpg";
+import Img_6 from "./assets/temple.jpg";
 
 const views = [
   {
     id: 1,
     image: Img_1,
-    name: "maria ferguson",
-    title: "office manager",
-    quote:
-      "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid ",
+    name: "Marcus Aurelius",
+    title: "Revenge",
+    quote: "The best revenge is not to be like your enemy",
   },
   {
     id: 2,
     image: Img_2,
-    name: "john doe",
-    title: "regular guy",
-    quote:
-      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually,",
+    name: "Marcus Aurelius",
+    title: "Tolerance",
+    quote: "Be tolerant with others and strict with yourself.",
   },
   {
     id: 3,
     image: Img_3,
-    name: "peter smith",
-    title: "product designer",
+    name: "Seneca",
+    title: "Courage",
     quote:
-      "Drinking vinegar polaroid street art echo park, actually semiotics next",
+      "He who fears death will never do anything worth of a man who is alive.",
   },
   {
     id: 4,
     image: Img_4,
-    name: "susan andersen",
+    name: "Seneca",
     title: "the boss",
     quote:
-      "Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan",
+      "“Life is very short and anxious for those who forget the past, neglect the present, and fear the future.”",
+  },
+  {
+    id: 5,
+    image: Img_5,
+    name: "Epictetus",
+    title: "Philosophy",
+    quote: "Don’t explain your philosophy. Embody it.",
+  },
+  {
+    id: 6,
+    image: Img_6,
+    name: "Epictetus",
+    title: "Desire",
+    quote:
+      "Curb your desire—don’t set your heart on so many things and you will get what you need",
   },
 ];
 

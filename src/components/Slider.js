@@ -23,7 +23,7 @@ const Slider = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 5000);
+    }, 6000);
     return () => clearInterval(slider);
   }, [index]);
 
@@ -31,7 +31,7 @@ const Slider = () => {
     <section className="section">
       <div className="title">
         <h2>
-          <span>/</span>reviews
+          <span>Golden thoughts</span>
         </h2>
       </div>
       <div className="section-center">
