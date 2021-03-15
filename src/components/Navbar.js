@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "rgb(255, 188, 2)" }}>
+      <IconContext.Provider value={{ color: "rgba(255, 188, 2, 0.8)" }}>
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -45,7 +45,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Figure
+                  Heroes
                 </Link>
               </li>
               <li className="nav-item">
@@ -55,6 +55,15 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   More
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/products"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  About Us
                 </Link>
               </li>
             </ul>

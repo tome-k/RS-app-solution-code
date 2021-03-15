@@ -1,6 +1,7 @@
 @import "../shared.scss";
 
 .section {
+  padding-top: 80px;
   font-family: $secondary-font;
   /* width: 90vw;
     margin: 5rem auto;
@@ -25,15 +26,13 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-.title h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
+.title h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
 .title span {
   font-size: 0.85em;
-  color: $gold-light;
+  color: $clr-primary-1;
   margin-right: 1rem;
   font-weight: 700;
 }
@@ -54,12 +53,12 @@
   width: 70%;
   height: 70%;
   object-fit: cover;
-  border: 3px solid $clr-grey-8;
+  border-radius: 5px;
   box-shadow: $dark-shadow;
 }
 article h4 {
   text-transform: uppercase;
-  color: $gold-light;
+  color: $gold-350;
   margin-bottom: 0.25rem;
 }
 .title {
@@ -77,7 +76,7 @@ article h4 {
 .icon {
   font-size: 5rem;
   margin-top: 1rem;
-  color: $gold-light;
+  color: $gold-350;
 }
 .prev,
 .next {
@@ -85,7 +84,7 @@ article h4 {
   top: 250px;
   transform: translateY(-50%);
   background-color: transparent;
-  color: $gold-light;
+  color: $gold-350;
   width: 1.25rem;
   height: 1.25rem;
   display: grid;
@@ -98,7 +97,7 @@ article h4 {
 }
 .prev:hover,
 .next:hover {
-  background: $gold-light;
+  background: $gold-350;
   color: $black;
 }
 .prev {
