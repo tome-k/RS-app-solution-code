@@ -23,16 +23,16 @@ const Slider = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 7500);
+    }, 50000);
     return () => clearInterval(slider);
   }, [index]);
 
   return (
     <section className="section">
       <div className="title">
-        <h1>
+        {/* <h1>
           <span>"Stoicism Golden thoughts.."</span>
-        </h1>
+        </h1> */}
       </div>
       <div className="section-center">
         {views.map((view, viewIndex) => {
