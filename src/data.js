@@ -1,5 +1,5 @@
 import Img_1 from "./assets/athens.jpg";
-import Img_2 from "./assets/acropolis.jpg";
+import Img_2 from "./assets/korfu.jpg";
 import Img_3 from "./assets/greece.jpg";
 import Img_4 from "./assets/greece2.jpg";
 import Img_5 from "./assets/parthenon.jpg";

@@ -7,7 +7,7 @@ import {
   // GiCrossedAirFlows,
   GiIonicColumn,
 } from "react-icons/gi";
-import { RiMenu3Line } from "react-icons/ri";
+// import { RiMenu3Line } from "react-icons/ri";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";

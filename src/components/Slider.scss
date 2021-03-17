@@ -80,7 +80,7 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 250px;
+  top: 288px;
   transform: translateY(-50%);
   background-color: transparent;
   color: $gold-350;
@@ -100,10 +100,16 @@ article h4 {
   color: $black;
 }
 .prev {
-  left: 0;
+  left: 60px;
+  @include m_q(768px) {
+    left: 10px;
+  }
 }
 .next {
-  right: 0;
+  right: 60px;
+  @include m_q(768px) {
+    right: 10px;
+  }
 }
 @media (min-width: 800px) {
   .text {
