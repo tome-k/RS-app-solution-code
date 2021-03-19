@@ -11,14 +11,14 @@ const views = [
     image: Img_1,
     name: "Marcus Aurelius",
     title: "Revenge",
-    quote: "The best revenge is not to be like your enemy",
+    quote: "“The best revenge is not to be like your enemy”",
   },
   {
     id: 2,
     image: Img_2,
     name: "Marcus Aurelius",
     title: "Tolerance",
-    quote: "Be tolerant with others and strict with yourself.",
+    quote: "“Be tolerant with others and strict with yourself.”",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const views = [
     name: "Seneca",
     title: "Courage",
     quote:
-      "He who fears death will never do anything worth of a man who is alive.",
+      "“He who fears death will never do anything worth of a man who is alive.”",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const views = [
     image: Img_5,
     name: "Epictetus",
     title: "Philosophy",
-    quote: "Don’t explain your philosophy. Embody it.",
+    quote: "“Don’t explain your philosophy. Embody it.”",
   },
   {
     id: 6,

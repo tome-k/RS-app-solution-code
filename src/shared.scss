@@ -54,7 +54,6 @@ $nav-shadow: 1px 3px 6px rgba(black, 0.5);
 $max-width: 1170px;
 $fixed-width: 620px;
 
-// Media quarries
 // Media quarries Max-Width
 @mixin m_q($size) {
   @media screen and (max-width: $size) {
