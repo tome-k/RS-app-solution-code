@@ -21,35 +21,36 @@ function Hero() {
             fairly and justly.
           </p>
           <p>
-            The Stoics are especially known for teaching that "virtue is the
-            only good" for human beings, and those external things—such as
-            health, wealth, and pleasure—are not good or bad in themselves
-            (adiaphora), but have value as "material for virtue to act upon."
-            Alongside Aristotelian ethics, the Stoic tradition forms one of the
-            major founding approaches to virtue ethics.The Stoics also held that
-            certain destructive emotions resulted from errors of judgment, and
-            they believed people should aim to maintain a will (called
-            prohairesis) that is "in accordance with nature." Because of this,
-            the Stoics thought the best indication of an individual's philosophy
-            was not what a person said but how a person behaved.To live a good
-            life, one had to understand the rules of the natural order since
-            they thought everything was rooted in nature.
+            <strong>The Stoics </strong>are especially known for teaching that
+            "virtue is the only good" for human beings, and those external
+            things—such as health, wealth, and pleasure—are not good or bad in
+            themselves (adiaphora), but have value as "material for virtue to
+            act upon." Alongside Aristotelian ethics, the Stoic tradition forms
+            one of the major founding approaches to virtue ethics.The Stoics
+            also held that certain destructive emotions resulted from errors of
+            judgment, and they believed people should aim to maintain a will
+            (called prohairesis) that is "in accordance with nature." Because of
+            this, the Stoics thought the best indication of an individual's
+            philosophy was not what a person said but how a person behaved.To
+            live a good life, one had to understand the rules of the natural
+            order since they thought everything was rooted in nature.
           </p>
           <p>
-            Many Stoics—such as Seneca and Epictetus—emphasized that because
-            "virtue is sufficient for happiness," a sage would be emotionally
-            resilient to misfortune. This belief is similar to the meaning of
-            the phrase "stoic calm," though the phrase does not include the
-            "radical ethical" Stoic views that only a sage can be considered
-            truly free and that all moral corruptions are equally vicious.
+            <strong>Many </strong>Stoics—such as Seneca and Epictetus—emphasized
+            that because "virtue is sufficient for happiness," a sage would be
+            emotionally resilient to misfortune. This belief is similar to the
+            meaning of the phrase "stoic calm," though the phrase does not
+            include the "radical ethical" Stoic views that only a sage can be
+            considered truly free and that all moral corruptions are equally
+            vicious.
           </p>
           <p>
-            Stoicism flourished throughout the Roman and Greek world until the
-            3rd century AD, and among its adherents was Emperor Marcus Aurelius.
-            It experienced a decline after Christianity became the state
-            religion in the 4th century AD. Since then it has seen revivals,
-            notably in the Renaissance (Neostoicism) and in the contemporary era
-            (modern Stoicism).
+            <strong>Stoicism</strong> flourished throughout the Roman and Greek
+            world until the 3rd century AD, and among its adherents was Emperor
+            Marcus Aurelius. It experienced a decline after Christianity became
+            the state religion in the 4th century AD. Since then it has seen
+            revivals, notably in the Renaissance (Neostoicism) and in the
+            contemporary era (modern Stoicism).
           </p>
         </div>
         <div className="philosophy__img-wrapper">
