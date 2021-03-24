@@ -20,16 +20,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 3.5rem;
   padding: 3rem;
   font-family: $secondary-font;
 
   .card {
     display: flex;
     flex-direction: column;
-    flex: 1 0 300px;
-    max-width: 450px;
-    min-width: 370px;
+    flex: 0 0 400px;
     overflow: hidden;
     background: #fff;
     color: $clr-grey-3;
@@ -41,8 +39,16 @@
 
     &:hover {
       transform: translateY(-0.9rem);
-      // box-shadow: 2px 3px 20px rgba(255, 255, 255, 0.7);
+      box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
       outline: $clr-grey-7 solid 5px;
+      @include m_q(975px) {
+        transform: scale(1.03);
+        box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
+        outline: $clr-grey-7 solid 5px;
+      }
+    }
+    @include m_q(699px) {
+      flex: 0 1 400px;
     }
 
     &__content {
