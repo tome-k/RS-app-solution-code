@@ -2,16 +2,19 @@ import React from "react";
 import "./Hero.scss";
 import { Link } from "react-router-dom";
 
-// import marcus from "../assets/marcus_aurelius.jpg";
-// import epictetus from "../assets/epictetus.jpg";
+import marcus from "../assets/marcus-aurelius2.jpg";
+import epictetus from "../assets/epiciteus-2.jpg";
 import seneca from "../assets/seneca_br.jpg";
 
 function Hero() {
   return (
     <div className="hero">
+      <h1>"Heroes of Stoicism"</h1>
+      <h3>profiles and biographies </h3>
+      <hr />
       <div className="cards">
         <Link to="/" className="card">
-          <img src={seneca} alt="" />
+          <img src={marcus} alt="" />
           <div className="card__content">
             <div className="card__title">Marcus Aurelius</div>
             <div className="card__snippet">
@@ -29,7 +32,7 @@ function Hero() {
           </div>
         </Link>
         <Link to="/" className="card">
-          <img src={seneca} alt="" />
+          <img src={epictetus} alt="" />
           <div className="card__content">
             <div className="card__title">Epictetus</div>
             <div className="card__snippet">
