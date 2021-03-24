@@ -41,20 +41,7 @@
     &:hover {
       transform: translateY(-0.75rem);
       // box-shadow: 2px 3px 20px rgba(255, 255, 255, 0.7);
-      border: $clr-grey-5 solid 3px;
-    }
-
-    &__img {
-      // flex: 0 0 250px;
-      // background-position: center;
-      // background-size: cover;
-      // background-repeat: no-repeat;
-
-      img {
-        object-fit: contain;
-        width: 60%;
-        height: 60%;
-      }
+      border: $clr-grey-7 solid 5px;
     }
 
     &__content {
