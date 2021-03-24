@@ -40,11 +40,11 @@
     &:hover {
       transform: translateY(-0.9rem);
       box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
-      outline: $clr-grey-7 solid 5px;
+      outline: $clr-grey-6 solid 5px;
       @include m_q(975px) {
         transform: scale(1.03);
         box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
-        outline: $clr-grey-7 solid 5px;
+        outline: $clr-grey-6 solid 5px;
       }
     }
     @include m_q(699px) {
@@ -64,13 +64,16 @@
       margin-bottom: 0.5rem;
     }
     &__snippet {
-      margin-bottom: 0.5rem;
+      margin-top: 1rem;
       font-size: 1rem;
     }
 
     &__read {
-      color: $clr-grey-3;
+      display: flex;
+      justify-content: flex-end;
+      color: $clr-grey-1;
       margin-top: auto;
+      margin-right: 20px;
       text-transform: uppercase;
       font-weight: 700;
     }
