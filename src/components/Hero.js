@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="cards">
-        <Link href="#" className="card">
+        <Link to="/" className="card">
           <img src={seneca} alt="" />
           <div className="card__content">
             <div className="card__title">Marcus Aurelius</div>
@@ -25,7 +25,7 @@ function Hero() {
             <div className="card__read">Read More</div>
           </div>
         </Link>
-        <Link href="#" className="card">
+        <Link to="/" className="card">
           <img src={seneca} alt="" />
           <div className="card__content">
             <div className="card__title">Epictetus</div>
@@ -40,7 +40,7 @@ function Hero() {
             <div className="card__read">Read More</div>
           </div>
         </Link>
-        <Link href="#" className="card">
+        <Link to="/" className="card">
           <img src={seneca} alt="" />
           <div className="card__content">
             <div className="card__title">Seneca</div>
