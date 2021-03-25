@@ -2,7 +2,7 @@
 
 .hero {
   width: 100%;
-  padding: 160px 0;
+  padding: 100px 0;
   background: rgba(11, 18, 22, 0.548); /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -96,7 +96,7 @@
     overflow: hidden;
     background: #fff;
     color: $clr-grey-3;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.3);
     text-decoration: none;
     font-size: 1rem;
@@ -105,11 +105,16 @@
     &:hover {
       transform: translateY(-0.8rem);
       box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
-      outline: $clr-grey-6 solid 5px;
+      box-shadow: 0 0 0 5px $clr-grey-6;
+      border-radius: 5px;
+      outline: none;
+
       @include m_q(975px) {
         transform: scale(1.03);
         box-shadow: 1px 3px 10px rgba($clr-grey-8, 0.8);
-        outline: $clr-grey-6 solid 5px;
+        box-shadow: 0 0 0 5px $clr-grey-6;
+        border-radius: 5px;
+        outline: none;
       }
     }
     @include m_q(699px) {
