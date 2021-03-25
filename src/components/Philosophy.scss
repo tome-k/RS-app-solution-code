@@ -2,7 +2,7 @@
 
 .philosophy {
   color: $white;
-  padding: 160px 0;
+  padding-top: 160px;
   font-family: $secondary-font;
   background: rgba(11, 18, 22, 0.548); /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -63,6 +63,27 @@
       max-width: 94%;
       max-height: 94%;
       border-radius: 5px;
+    }
+  }
+  hr {
+    border: none;
+    background-color: $clr-grey-5;
+    color: $clr-grey-5;
+    height: 2px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+    @include m_q(1050px) {
+      max-width: 800px;
+    }
+    @include m_q(850px) {
+      max-width: 600px;
+    }
+    @include m_q(600px) {
+      max-width: 500px;
+    }
+    @include m_q(500px) {
+      max-width: 400px;
     }
   }
 }

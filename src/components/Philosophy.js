@@ -57,6 +57,7 @@ function Hero() {
           <img src={img_1} alt="Zeno of Citium" />
         </div>
       </div>
+      <hr />
     </div>
   );
 }
