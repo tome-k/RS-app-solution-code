@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import {
   // GiAncientColumns,
   // GiCrossedSwords,
-  GiCrossMark,
+  // GiCrossMark,
   // GiCrossedAirFlows,
   GiIonicColumn,
+  GiCrossedChains,
+  // GiHamburgerMenu,
 } from "react-icons/gi";
 // import { RiMenu3Line } from "react-icons/ri";
-import { AiOutlineMenuUnfold } from "react-icons/ai";
+import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";
 
@@ -20,7 +22,7 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "$secondary-color" }}>
+      <IconContext.Provider value={{ color: "rgb(250, 224, 182)" }}>
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -28,7 +30,7 @@ function Navbar() {
               Stoa
             </Link>
             <div className="menu-icon" onClick={handleClick}>
-              {click ? <GiCrossMark /> : <AiOutlineMenuUnfold />}
+              {click ? <GiCrossedChains /> : <VscMenu />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
