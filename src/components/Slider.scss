@@ -48,9 +48,10 @@
   }
 }
 article h4 {
-  font-size: 3.2rem;
+  font-size: 3.3rem;
   text-decoration: underline;
-  color: $gold-700;
+  color: $clr-primary-2;
+  text-shadow: 1px 1px 2px $primary_color;
   margin-bottom: 0.25rem;
   @include m_q(999px) {
     margin-top: -50px;
@@ -66,13 +67,13 @@ article h4 {
 .title {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
-  color: $gold-750;
+  color: $primary_color;
 }
 .text {
   max-width: 50ch;
   margin: 0 auto;
   line-height: 1;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: $clr-grey-7;
   @include m_q(999px) {
     margin-top: 10px;
@@ -84,7 +85,7 @@ article h4 {
 .icon {
   font-size: 3rem;
   margin-top: 8px;
-  color: $gold-700;
+  color: $clr-primary-2;
   @include m_q(999px) {
     margin-top: 35px;
   }
@@ -98,7 +99,7 @@ article h4 {
   top: 288px;
   transform: translateY(-50%);
   background-color: transparent;
-  color: $gold-350;
+  color: $sec_color-300;
   width: 1.25rem;
   height: 1.25rem;
   display: grid;
@@ -111,7 +112,7 @@ article h4 {
 }
 .prev:hover,
 .next:hover {
-  background: $gold-350;
+  background: $sec_color-500;
   color: $black;
 }
 .prev {

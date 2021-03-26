@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import { FaQuoteRight } from "react-icons/fa";
+import { GiAncientColumns } from "react-icons/gi";
 import data from "../data";
 import "./Slider.scss";
 
@@ -53,7 +53,7 @@ const Slider = () => {
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
-              <FaQuoteRight className="icon" />
+              <GiAncientColumns className="icon" />
             </article>
           );
         })}
