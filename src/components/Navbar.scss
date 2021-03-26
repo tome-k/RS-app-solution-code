@@ -2,6 +2,7 @@
 
 .navbar {
   background-color: $nav_bg_color;
+  // background-color: red;
   box-shadow: $nav-shadow;
   height: 72px;
   display: flex;
@@ -93,10 +94,10 @@
   }
 
   .nav-menu.active {
-    background: $bg_dark;
+    background: $menu_bg_color;
     left: 0;
     opacity: 1;
-    transition: all 0.7s ease-in-out;
+    transition: all 750ms ease-in-out;
     z-index: 1;
   }
 
@@ -133,7 +134,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 40%);
+    transform: translate(-100%, 35%);
     font-size: 2.5rem;
     cursor: pointer;
   }
