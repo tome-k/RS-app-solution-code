@@ -2,13 +2,7 @@ import React from "react";
 import "./Footer.scss";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { GiIonicColumn } from "react-icons/gi";
 
 function Footer() {
@@ -63,6 +57,7 @@ function Footer() {
             <Link to="/">GitHub</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
+            <Link to="/">LinkedIn</Link>
           </div>
         </div>
       </div>
@@ -80,17 +75,9 @@ function Footer() {
               className="social-icon-link"
               to="/"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Github"
             >
-              <FaFacebook />
-            </Link>
-            <Link
-              className="social-icon-link"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
+              <FaGithub />
             </Link>
             <Link
               className="social-icon-link"
