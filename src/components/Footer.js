@@ -56,12 +56,11 @@ function Footer() {
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/">Philosopher</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
+            <Link to="/">GitHub</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div>
