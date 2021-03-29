@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
-  position: sticky;
+  // position: sticky;
   top: 0;
   z-index: 999;
 }
@@ -58,7 +58,7 @@
 }
 
 .nav-item:hover {
-  border-bottom: 3px solid $clr-red-dark;
+  border-bottom: 3px solid $brown_two;
 }
 
 .nav-links {
@@ -109,7 +109,7 @@
   }
 
   .nav-links:hover {
-    color: $clr-red-dark;
+    color: $brown_two;
     // transform: scale(1.01);
     transition: all 0.3s ease-in-out;
   }

@@ -18,7 +18,7 @@
 .btn--outline {
   background-color: transparent;
   color: $primary_color;
-  padding: 8px 20px;
+  padding: 8px 24px;
   border: 1px solid $primary_color;
   transition: all 0.3s ease-out;
 }
@@ -61,8 +61,8 @@
 
 .btn--outline:hover {
   border: 1px solid $primary_color;
-  background-color: $primary_color;
-  color: rgb(8, 14, 31);
+  background-color: $white;
+  color: $brown_two;
 }
 
 .btn--wide:hover {

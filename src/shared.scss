@@ -47,12 +47,17 @@ $blue: rgb(39, 106, 251);
 $green: rgb(37, 206, 74);
 $white: rgb(255, 255, 255);
 $black: rgb(0, 0, 0);
-$brown: #55321c;
+$brown: rgb(119, 67, 35);
+$brown_bg: rgba(119, 67, 35, 0.897);
+$brown_one: rgb(64, 63, 68);
+$brown_two: rgb(151, 55, 14);
 $bg_black: rgb(17, 11, 11);
 $bg_dark: rgb(18, 19, 19);
 $nav_bg_color: rgba(18, 19, 19, 0.6);
 $menu_bg_color: rgba(18, 19, 19, 0.9);
-$footer_bg_color: rgba(29, 28, 26, 0.93);
+$footer_bg_color: rgba(26, 25, 23, 0.95);
+$footer_bg_color_two: rgba(34, 32, 33, 0.95);
+$footer_bg_color_three: rgba(22, 26, 27, 0.97);
 
 // Tools
 $transition: all 0.3s linear;

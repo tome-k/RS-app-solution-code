@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.scss";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import { FaGithub, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaPinterest, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { GiIonicColumn } from "react-icons/gi";
 
 function Footer() {
@@ -10,11 +10,11 @@ function Footer() {
     <div className="footer">
       <div className="footer-container">
         <section className="footer-subscription">
-          <p className="footer-subscription-heading">
-            Join our exclusive membership to receive the latest news and trends
-          </p>
+          <h2 className="footer-subscription-heading">
+            Join us to receive stoicism golden thoughts
+          </h2>
           <p className="footer-subscription-text">
-            You can unsubscribe at any time.
+            You can unsubscribe at any time
           </p>
           <div className="input-areas">
             <form>
@@ -56,7 +56,7 @@ function Footer() {
             <div className="footer-link-items">
               <h2>Social Media</h2>
               <Link to="/">GitHub</Link>
-              <Link to="/">Youtube</Link>
+              <Link to="/">Pinterest</Link>
               <Link to="/">Twitter</Link>
               <Link to="/">LinkedIn</Link>
             </div>
@@ -66,7 +66,7 @@ function Footer() {
           <div className="social-media-wrap">
             <div className="footer-logo">
               <Link to="/" className="social-logo">
-                <GiIonicColumn className="navbar-icon" />
+                <GiIonicColumn className="footer-icon" />
                 Stoa
               </Link>
             </div>
@@ -84,17 +84,17 @@ function Footer() {
                 className="social-icon-link"
                 to="/"
                 target="_blank"
-                aria-label="Youtube"
+                aria-label="Twitter"
               >
-                <FaYoutube />
+                <FaTwitter />
               </Link>
               <Link
                 className="social-icon-link"
                 to="/"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="Pinterest"
               >
-                <FaTwitter />
+                <FaPinterest />
               </Link>
               <Link
                 className="social-icon-link"
