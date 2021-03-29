@@ -1,14 +1,23 @@
 @import "../shared.scss";
 
-.footer-container {
-  background-color: rgb(8, 14, 31);
-  padding: 4rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: $secondary_font;
+.footer {
+  position: relative;
+  background: url("../assets/books.jpg");
+  object-fit: contain;
+  width: 100%;
+  height: 1260px;
 
+  .footer-container {
+    position: relative;
+    top: 300px;
+    background-color: $footer_bg_color;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $secondary_font;
+  }
   .footer-subscription {
     display: flex;
     flex-direction: column;
