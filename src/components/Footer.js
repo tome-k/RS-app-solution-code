@@ -106,6 +106,7 @@ function Footer() {
               </Link>
             </div>
           </div>
+          <hr className="footer-line" />
         </section>
       </div>
     </div>
