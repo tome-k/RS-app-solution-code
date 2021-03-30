@@ -9,10 +9,14 @@
   min-width: 100%;
   min-height: 1275px;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   .footer-container {
     position: relative;
     top: 500px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
     background-color: $footer_bg_color_three;
     padding: 4rem 0 2rem 0;
     display: flex;
@@ -20,6 +24,15 @@
     justify-content: center;
     align-items: center;
     font-family: $secondary_font;
+    @include m_q(930px) {
+      top: 350px;
+    }
+    @include m_q(825px) {
+      top: 100px;
+    }
+    @include m_q(600px) {
+      top: 0px;
+    }
   }
   .footer-subscription {
     display: flex;
