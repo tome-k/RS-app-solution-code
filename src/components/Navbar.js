@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  // GiAncientColumns,
-  // GiCrossedSwords,
-  // GiCrossMark,
-  // GiCrossedAirFlows,
-  GiIonicColumn,
-  GiCrossedChains,
-  // GiHamburgerMenu,
-} from "react-icons/gi";
-// import { RiMenu3Line } from "react-icons/ri";
+import { GiIonicColumn, GiCrossedChains } from "react-icons/gi";
 import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";

@@ -2,14 +2,13 @@
 
 .navbar {
   background-color: $nav_bg_color;
-  // background-color: red;
   box-shadow: $nav-shadow;
   height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
-  // position: sticky;
+  position: sticky;
   top: 0;
   z-index: 999;
 }
@@ -26,13 +25,10 @@
   width: 100%;
   padding: 0 70px;
   margin: auto;
-  // max-width: 1500px;
 }
 
 .navbar-logo {
   color: #fae0b6;
-  // color: $clr-grey-9;
-  // color: $gold-750;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -63,8 +59,6 @@
 
 .nav-links {
   color: #fae0b6;
-  // color: $gold-750;
-  // color: $clr-grey-9;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -110,7 +104,6 @@
 
   .nav-links:hover {
     color: $brown_two;
-    // transform: scale(1.01);
     transition: all 0.3s ease-in-out;
   }
 
