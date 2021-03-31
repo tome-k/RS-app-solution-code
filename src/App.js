@@ -1,23 +1,24 @@
 import "./App.scss";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Slider from "./components/Slider";
 import Philosophy from "./components/Philosophy";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
-function App() {
+function App(props) {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Slider />
       <Philosophy />
       <Hero />
-      <Footer />
       <Switch>
-        <Route path="/" />
+        <Route path="/more" exact component />
+        <Route path="/about" component />
       </Switch>
-    </Router>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
