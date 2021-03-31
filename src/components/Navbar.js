@@ -4,6 +4,7 @@ import { GiIonicColumn, GiCrossedChains } from "react-icons/gi";
 import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";
+import { Link as LinkSc, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [click, setClick] = useState(false);
