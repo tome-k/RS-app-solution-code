@@ -4,7 +4,7 @@ import { GiIonicColumn, GiCrossedChains } from "react-icons/gi";
 import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";
-import { Link as LinkSc, animateScroll as scroll } from "react-scroll";
+// import { Link as LinkSc, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,35 +26,38 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link
+                <a
+                  href="#home"
                   to="/slider"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
+                  href="#philosophy"
                   to="/philosophy"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Philosophy
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   to="/hero"
+                  href="#hero"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Heroes
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/more"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -63,7 +66,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/about"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >

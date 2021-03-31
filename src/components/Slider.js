@@ -28,7 +28,7 @@ const Slider = () => {
   }, [index]);
 
   return (
-    <section className="section">
+    <section className="section" id="home">
       <div className="title">
         {/* <h1>
           <span>"Stoicism Golden thoughts.."</span>

@@ -4,7 +4,7 @@ import img_1 from "../assets/zenon2.jpg";
 
 function Hero() {
   return (
-    <div className="philosophy">
+    <div className="philosophy" id="philosophy">
       <div className="philosophy__container">
         <div className="philosophy__text-wrapper">
           <h2>Philosophy of stoicism</h2>

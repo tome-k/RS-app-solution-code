@@ -8,7 +8,7 @@ import seneca from "../assets/seneca_br.jpg";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <h1>"Heroes of Stoicism"</h1>
       <h3>profiles and biographies </h3>
       <hr />
