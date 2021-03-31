@@ -50,7 +50,7 @@ const Slider = () => {
           return (
             <article className={position} key={id}>
               <img src={image} alt={name} className="view-img" />
-              <h4>{name}</h4>
+              <h5>{name}</h5>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
               <GiAncientColumns className="icon" />

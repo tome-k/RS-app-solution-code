@@ -7,12 +7,13 @@
   background-position: center;
   object-fit: contain;
   min-width: 100%;
-  min-height: 1275px;
+  min-height: 1260px;
   overflow-x: hidden;
   overflow-y: hidden;
 
   .footer-container {
     position: relative;
+    margin: 0 auto;
     top: 500px;
     right: 0px;
     left: 0px;
@@ -52,8 +53,8 @@
 
   .footer-subscription-heading {
     margin-bottom: 1.5rem;
-    font-size: 3.7rem;
-    font-weight: 700;
+    font-size: 3.3rem;
+    font-weight: 600;
     @include m_q(576px) {
       font-size: 1.7;
       font-weight: 500;

@@ -39,7 +39,6 @@
 }
 
 .view-img {
-  margin-bottom: 1rem;
   width: 75%;
   height: 75%;
   object-fit: contain;
@@ -47,12 +46,12 @@
     margin-top: -20px;
   }
 }
-article h4 {
+article h5 {
   font-size: 3.3rem;
-  text-decoration: underline;
-  color: $brown_two;
-  text-shadow: 1px 1px 2px $primary_color;
-  margin-bottom: 0.25rem;
+  font-family: $primary-font;
+  color: $primary_color;
+  text-shadow: 1px 1px 2px $black;
+  margin-bottom: 5px;
   @include m_q(999px) {
     margin-top: -50px;
     font-size: 2.8rem;
@@ -67,7 +66,7 @@ article h4 {
 .title {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
-  color: $primary_color;
+  color: $brown_two;
 }
 .text {
   max-width: 50ch;
@@ -84,8 +83,8 @@ article h4 {
 }
 .icon {
   font-size: 3rem;
-  margin-top: 8px;
-  color: $brown_two;
+  margin-top: 1rem;
+  color: $secondary_color;
   @include m_q(999px) {
     margin-top: 35px;
   }
