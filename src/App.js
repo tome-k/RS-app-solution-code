@@ -11,7 +11,7 @@ function App(props) {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route path="/" exact>
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/more">

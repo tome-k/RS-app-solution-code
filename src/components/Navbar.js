@@ -4,7 +4,6 @@ import { GiIonicColumn, GiCrossedChains } from "react-icons/gi";
 import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
 import { IconContext } from "react-icons/lib";
-// import { Link as LinkSc, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,12 +25,7 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link
-                  href="#home"
-                  to="/"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
