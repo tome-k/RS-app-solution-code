@@ -26,14 +26,14 @@ function Navbar() {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <a
+                <Link
                   href="#home"
-                  to="/slider"
+                  to="/"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
