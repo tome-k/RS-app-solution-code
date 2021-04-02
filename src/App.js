@@ -15,10 +15,10 @@ function App(props) {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/more">
+        <Route exact path="/more">
           <More />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
         <Route path="*">
