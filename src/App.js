@@ -10,8 +10,7 @@ import NotFound from "./pages/NotFound";
 function App(props) {
   return (
     <BrowserRouter>
-      {/* {window.location.pathname === "/home" ? <Navbar /> : null} */}
-      <Navbar />
+      {window.location.pathname === "/" ? <Navbar /> : null}
       <Switch>
         <Route exact path="/">
           <Home />
@@ -26,8 +25,7 @@ function App(props) {
           <NotFound />
         </Route>
       </Switch>
-      <Footer />
-      {/* {window.location.pathname === "/home" ? <Footer /> : null} */}
+      {window.location.pathname === "/" ? <Footer /> : null}
     </BrowserRouter>
   );
 }
