@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import { GiIonicColumn, GiCrossedChains } from "react-icons/gi";
 import { VscMenu } from "react-icons/vsc";
 import "./Navbar.scss";
@@ -30,24 +31,31 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a
-                  href="#philosophy"
-                  to="/philosophy"
+                <LinkScroll
+                  // activeClass="active"
+                  to="philosophy"
+                  spy={true}
+                  smooth={true}
+                  offset={100}
+                  duration={1500}
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Philosophy
-                </a>
+                </LinkScroll>
               </li>
               <li className="nav-item">
-                <a
-                  to="/hero"
-                  href="#hero"
+                <LinkScroll
+                  to="hero"
+                  spy={true}
+                  smooth={true}
+                  offset={300}
+                  duration={1500}
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Heroes
-                </a>
+                </LinkScroll>
               </li>
               <li className="nav-item">
                 <Link
