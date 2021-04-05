@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import { FaGithub, FaPinterest, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { GiIonicColumn } from "react-icons/gi";
 
@@ -24,7 +24,7 @@ function Footer() {
                 type="email"
                 placeholder="Your Email"
               />
-              <Button buttonStyle="btn--outline">Subscribe</Button>
+              <button className="footer-btn">Subscribe</button>
             </form>
           </div>
         </section>
@@ -65,10 +65,18 @@ function Footer() {
         <section className="social-media">
           <div className="social-media-wrap">
             <div className="footer-logo">
-              <Link to="/" className="social-logo">
+              <LinkScroll
+                to="home"
+                className="social-logo"
+                spy={true}
+                smooth={true}
+                offset={-75}
+                duration={2000}
+                delay={750}
+              >
                 <GiIonicColumn className="footer-icon" />
                 Stoa
-              </Link>
+              </LinkScroll>
             </div>
             <small className="website-rights"></small>
             <div className="social-icons">

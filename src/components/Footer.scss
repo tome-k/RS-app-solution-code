@@ -224,7 +224,27 @@
       margin-top: 10px;
     }
   }
+  .footer-btn {
+    font-size: 1.125rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: transparent;
+    color: $primary_color;
+    padding: 8px 24px;
+    border: 1px solid $primary_color;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      border: 1px solid $primary_color;
+      background-color: $white;
+      color: $brown_two;
+    }
+  }
 }
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;
