@@ -32,7 +32,7 @@ function Navbar() {
                   smooth={true}
                   offset={-75}
                   duration={1500}
-                  delay="250"
+                  delay={250}
                 >
                   <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                     Home
@@ -46,7 +46,7 @@ function Navbar() {
                   smooth={true}
                   offset={100}
                   duration={1500}
-                  delay="750"
+                  delay={750}
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -60,7 +60,7 @@ function Navbar() {
                   smooth={true}
                   offset={300}
                   duration={1500}
-                  delay="750"
+                  delay={750}
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
