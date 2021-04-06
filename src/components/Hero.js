@@ -8,7 +8,7 @@ import seneca from "../assets/seneca_br.jpg";
 
 function Hero() {
   return (
-    <div className="hero" id="hero">
+    <section className="hero" id="hero">
       <h1>"Heroes of Stoicism"</h1>
       <h3>profiles and biographies </h3>
       <hr />
@@ -69,7 +69,7 @@ function Hero() {
           </div>
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
 

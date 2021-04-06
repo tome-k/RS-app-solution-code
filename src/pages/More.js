@@ -4,20 +4,67 @@ import "./More.scss";
 function More() {
   return (
     <section className="more">
-      <div className="more__container">
-        <h2 className="more__title">More Philosophy</h2>
-        <p className="more__desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, aut
-          veniam. Adipisci vero quibusdam saepe, nisi accusamus ad tempore quia
-          tempora accusantium assumenda recusandae illo eum officiis officia
-          nesciunt pariatur veritatis aliquid distinctio!
-        </p>
-        <p className="more__desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, aut
-          veniam. Adipisci vero quibusdam saepe, nisi accusamus ad tempore quia
-          tempora accusantium assumenda recusandae illo eum officiis officia
-          nesciunt pariatur veritatis aliquid distinctio!
-        </p>
+      <h1 className="more__title">More Philosophy of Stoicism</h1>
+      <div className="grid">
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, enim.
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+            illum?
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, repellat.
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+            explicabo!
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+            inventore!
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Temporibus, earum.
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione,
+            tempore!
+          </div>
+        </div>
+        <div className="card">
+          <div className="card__details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+            facilis?
+          </div>
+        </div>
+        {/* <div className="card">
+          <div className="card__details">Jobs To Be Done Workseet</div>
+        </div>
+        <div className="card">
+          <div class="card__details">Kanban and Retrospective</div>
+        </div>
+        <div class="card">
+          <div class="card__details">Swimlanes</div>
+        </div>
+        <div class="card">
+          <div class="card__details">Rose, Thorn, Bud</div>
+        </div> */}
       </div>
     </section>
   );
