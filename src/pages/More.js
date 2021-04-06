@@ -5,50 +5,50 @@ function More() {
   return (
     <section className="more">
       <h1 className="more__title">More Philosophy of Stoicism</h1>
-      <div className="grid">
-        <div className="card">
-          <div className="card__details">
+      <div className="more__grid">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, enim.
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
             illum?
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem, repellat.
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
             explicabo!
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
             inventore!
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Temporibus, earum.
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione,
             tempore!
           </div>
         </div>
-        <div className="card">
-          <div className="card__details">
+        <div className="more__card">
+          <div className="more__card__details">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
             facilis?
           </div>
