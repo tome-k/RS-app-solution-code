@@ -22,10 +22,7 @@ function About() {
           style={{ backgroundImage: `url(${BackImg_1})` }}
         ></div>
         <div className="about__content">
-          <div className="about__title">
-            I am very pretty girl from South Africa I know that Mario is crazy
-            about me!
-          </div>
+          <div className="about__title">I am very pretty girl from South</div>
           <div className="about__desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
             eligendi sit repellat nesciunt saepe fuga tenetur nisi quas nostrum
@@ -44,9 +41,7 @@ function About() {
           style={{ backgroundImage: `url(${BackImg_2})` }}
         ></div>
         <div className="about__content">
-          <div className="about__title">
-            My eyes are big and black and I am crazy about you Mario
-          </div>
+          <div className="about__title">My eyes are big and black</div>
           <div className="about__desc">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
             facilis porro obcaecati, odio adipisci harum laborum cumque
