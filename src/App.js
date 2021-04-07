@@ -4,8 +4,9 @@ import Home from "./pages/Home";
 import More from "./pages/More";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import Footer_2 from "./components/Footer_2";
 
 function App(props) {
   return (
@@ -25,7 +26,7 @@ function App(props) {
           <NotFound />
         </Route>
       </Switch>
-      {window.location.pathname === "/" ? <Footer /> : null}
+      {window.location.pathname === "/" ? <Footer_2 /> : null}
     </BrowserRouter>
   );
 }
