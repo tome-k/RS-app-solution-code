@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
-import Footer_2 from "./components/Footer_2";
+import Footerr from "./components/Footerr";
 
 function App(props) {
   return (
@@ -26,7 +26,7 @@ function App(props) {
           <NotFound />
         </Route>
       </Switch>
-      {window.location.pathname === "/" ? <Footer_2 /> : null}
+      {window.location.pathname === "/" ? <Footerr /> : null}
     </BrowserRouter>
   );
 }
