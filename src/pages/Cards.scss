@@ -1,0 +1,90 @@
+@import "../shared.scss";
+.main1 {
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px 0;
+  @include m_q(768px) {
+    grid-gap: 20px;
+  }
+  @include m_q(499px) {
+    grid-template-columns: 10px repeat(6, 1fr) 10px;
+    grid-gap: 10px;
+  }
+
+  .cards1 {
+    grid-column: 2 / span 12;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(auto, 60px));
+    grid-gap: 40px;
+    @include m_q(500px) {
+      grid-column: 2 / span 6;
+      grid-template-columns: repeat (6, 1fr);
+      grid-gap: 20px;
+    }
+  }
+
+  .card1 {
+    grid-column-end: span 4;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.582);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    @include m_q(1000px) {
+      grid-column-end: span 6;
+    }
+    @include m_q(768px) {
+      grid-column-end: span 12;
+    }
+    @include m_q(500px) {
+      grid-column-end: span 6;
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+    }
+
+    &__img-container {
+      width: 100%;
+      padding-top: 56.25%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    &__img {
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &__content {
+      padding: 20px;
+    }
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__info {
+      display: flex;
+      align-self: end;
+      align-items: center;
+    }
+    &__price {
+      margin-left: auto;
+      padding: 5px 20px;
+      background-color: #393939;
+      border-radius: 20px;
+    }
+  }
+
+  .text--medium {
+    font-family: $primary-font;
+    font-size: 1rem;
+    line-height: 28px;
+    font-weight: 400;
+    color: $primary_color;
+  }
+}

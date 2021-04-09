@@ -1,12 +1,13 @@
 import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import More from "./pages/More";
+// import More from "./pages/More";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Footerr from "./components/Footerr";
+import Cards from "./pages/Cards";
 
 function App(props) {
   return (
@@ -17,7 +18,7 @@ function App(props) {
           <Home />
         </Route>
         <Route exact path="/more">
-          <More />
+          <Cards />
         </Route>
         <Route exact path="/about">
           <About />

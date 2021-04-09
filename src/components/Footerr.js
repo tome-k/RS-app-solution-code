@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import { FaGithub, FaPinterest, FaTwitter } from "react-icons/fa";
 import { GiIonicColumn, GiAncientColumns } from "react-icons/gi";
-import "./Footer_2.scss";
+import "./Footerr.scss";
 
 function Footer_2(props) {
   return (
