@@ -7,7 +7,8 @@ import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Footerr from "./components/Footerr";
-import Cards from "./pages/Cards";
+// import Cards from "./pages/Cards";
+import Grid from "./pages/Grid";
 
 function App(props) {
   return (
@@ -18,7 +19,7 @@ function App(props) {
           <Home />
         </Route>
         <Route exact path="/more">
-          <Cards />
+          <Grid title="Title" />
         </Route>
         <Route exact path="/about">
           <About />
