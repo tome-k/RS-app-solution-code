@@ -11,72 +11,72 @@ import BackImg_8 from "../assets/stoicism_007.jpg";
 
 function Grid({ title }) {
   return (
-    <div class="wrapper-grid">
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_1} alt="" class="profile-img" />
+    <section className="wrapper-grid">
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_1} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
           officia?
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_4} alt="" class="profile-img" />
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_4} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
           eos dolor sit amet msenhasa?
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_5} alt="" class="profile-img" />
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_3} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
           dolores.
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_6} alt="" class="profile-img" />
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_6} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, eaque!
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_7} alt="" class="profile-img" />
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_2} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
           architecto.
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-      <div class="grid-container">
-        <div class="banner-img">
-          <img src={BackImg_8} alt="" class="profile-img" />
+      <div className="grid-container">
+        <div className="banner-img">
+          <img src={BackImg_8} alt="" className="profile-img" />
         </div>
-        <h1 class="name">{title}</h1>
-        <p class="description">
+        <h1 className="name">{title}</h1>
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam?
         </p>
-        <button class="btn">Follow</button>
+        <button className="btn">Follow</button>
       </div>
-    </div>
+    </section>
   );
 }
 export default Grid;

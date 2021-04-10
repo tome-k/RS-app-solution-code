@@ -1,70 +1,80 @@
 import React from "react";
 import "./More.scss";
+import BackImg_1 from "../assets/stoicism_000.jpg";
+import BackImg_2 from "../assets/stoicism_001.jpg";
+import BackImg_3 from "../assets/stoicism_002.jpg";
+import BackImg_4 from "../assets/stoicism_003.jpg";
+import BackImg_5 from "../assets/stoicism_004.jpg";
+import BackImg_6 from "../assets/stoicism_005.jpg";
+import BackImg_7 from "../assets/stoicism_006.jpg";
+import BackImg_8 from "../assets/stoicism_007.jpg";
 
-function More() {
+function More({ title }) {
   return (
     <section className="more">
-      <h1 className="more__title">More Philosophy of Stoicism</h1>
-      <div className="more__grid">
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, enim.
-          </div>
+      <div className="more__card">
+        <div className="more__img-wrapper">
+          <img src={BackImg_1} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-            illum?
-          </div>
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          officia?
+        </p>
+        <button className="btn">Follow</button>
+      </div>
+      <div className="more__card">
+        <div className="banner-img">
+          <img src={BackImg_4} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem, repellat.
-          </div>
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
+          eos dolor sit amet msenhasa?
+        </p>
+        <button className="btn">Follow</button>
+      </div>
+      <div className="more__card">
+        <div className="banner-img">
+          <img src={BackImg_3} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            explicabo!
-          </div>
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+          dolores.
+        </p>
+        <button className="btn">Follow</button>
+      </div>
+      <div className="more__card">
+        <div className="banner-img">
+          <img src={BackImg_6} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
-            inventore!
-          </div>
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, eaque!
+        </p>
+        <button className="btn">Follow</button>
+      </div>
+      <div className="more__card">
+        <div className="banner-img">
+          <img src={BackImg_2} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Temporibus, earum.
-          </div>
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+          architecto.
+        </p>
+        <button className="btn">Follow</button>
+      </div>
+      <div className="more__card">
+        <div className="banner-img">
+          <img src={BackImg_8} alt="" className="profile-img" />
         </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione,
-            tempore!
-          </div>
-        </div>
-        <div className="more__card">
-          <div className="more__card__details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-            facilis?
-          </div>
-        </div>
-        {/* <div className="card">
-          <div className="card__details">Jobs To Be Done Workseet</div>
-        </div>
-        <div className="card">
-          <div class="card__details">Kanban and Retrospective</div>
-        </div>
-        <div class="card">
-          <div class="card__details">Swimlanes</div>
-        </div>
-        <div class="card">
-          <div class="card__details">Rose, Thorn, Bud</div>
-        </div> */}
+        <h1 className="name">{title}</h1>
+        <p className="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam?
+        </p>
+        <button className="btn">Follow</button>
       </div>
     </section>
   );

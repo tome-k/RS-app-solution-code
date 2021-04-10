@@ -1,25 +1,24 @@
 import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import More from "./pages/More";
+import More from "./pages/More";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Footerr from "./components/Footerr";
-// import Cards from "./pages/Cards";
-import Grid from "./pages/Grid";
+// import Grid from "./pages/Grid";
+// import Footer from "./components/Footer";
 
 function App(props) {
   return (
     <BrowserRouter>
-      {window.location.pathname === "/" ? <Navbar /> : null}
+      {(window.location.pathname === "/", "/more" ? <Navbar /> : null)}
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/more">
-          <Grid title="Title" />
+          <More title="title" />
         </Route>
         <Route exact path="/about">
           <About />
@@ -28,7 +27,7 @@ function App(props) {
           <NotFound />
         </Route>
       </Switch>
-      {window.location.pathname === "/" ? <Footerr /> : null}
+      {(window.location.pathname === "/", "/more" ? <Footerr /> : null)}
     </BrowserRouter>
   );
 }

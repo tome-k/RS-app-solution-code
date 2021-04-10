@@ -1,98 +1,85 @@
 @import "../shared.scss";
 
 .more {
-  background-color: rgb(250, 250, 250);
-  padding: 5rem;
-  margin: 1rem 0;
-}
-@media screen and (min-width: 768px) {
-  .section {
-    padding: 4rem;
-  }
-}
-
-.more__title {
-  font-size: 1.8rem;
-  margin: 0 0 1.5em;
-  font-weight: normal;
-}
-
-.more__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-gap: 120px;
-  grid-row-gap: 80px;
-  grid-auto-rows: 380px;
-  grid-auto-flow: row dense;
-}
+  gap: 200px;
+  grid-template-columns: repeat(auto-fit, 21rem);
+  //   grid-template-columns: repeat(auto-fit, minmax(20rem, max-content));
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  padding: 3.3rem 1.5rem;
+  background: url("../assets/giammarco.jpg") center/cover no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  object-fit: contain;
+  //   background: rgba(11, 18, 22, 0.548); /* fallback for old browsers */
+  //   background: -webkit-linear-gradient(
+  //     to bottom,
+  //     rgba(110, 146, 170, 0.4),
+  //     rgba(11, 18, 22, 0.548)
+  //   ); /* Chrome 10-25, Safari 5.1-6 */
+  //   background: linear-gradient(
+  //     to bottom,
+  //     rgba(98, 133, 156, 0.5),
+  //     rgba(11, 18, 22, 0.548)
+  //   );
+  @include m_q(939px) {
+    gap: 50px;
+  }
 
-.more__card {
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  grid-column-start: auto;
-  grid-row-start: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
-  transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
-  transition-delay: 0.1s;
-}
-.more__card:nth-of-type(1n) {
-  background-image: url("../assets/stoicism_006.jpg");
-}
-.more__card:nth-of-type(2n) {
-  background-image: url("../assets/stoicism_001.jpg");
-}
-.more__card:nth-of-type(3n) {
-  background-image: url("../assets/stoicism_002.jpg");
-}
-.more__card:nth-of-type(4n) {
-  background-image: url("../assets/stoicism_003.jpg");
-}
-.more__card:nth-of-type(5n) {
-  background-image: url("../assets/stoicism_004.jpg");
-}
-.more__card:nth-of-type(6n) {
-  background-image: url("../assets/stoicism_005.jpg");
-}
-.more__card:nth-of-type(7n) {
-  background-image: url("../assets/stoicism_007.jpg");
-}
-.more__card:nth-of-type(8n) {
-  background-image: url("../assets/stoicism_000.jpg");
-}
-.more__card:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.3;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-.more__card:hover {
-  box-shadow: rgba(45, 45, 45, 0.05) 0px 2px 2px,
-    rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px,
-    rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px,
-    rgba(35, 35, 35, 0.05) 0px 64px 64px;
-  transform: translate(0, -0.4rem);
-}
-.more__card:hover:after {
-  opacity: 0;
-}
-.more__card__details {
-  position: relative;
-  z-index: 1;
-  padding: 15px;
-  background: #fff;
-  color: #393939;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  &__card {
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 0.5rem;
+    transition: all 300ms ease-in;
+
+    &:hover {
+      transform: translateY(-1rem);
+      box-shadow: 1px 3px 12px rgba($clr-grey-4, 0.8);
+      box-shadow: 0 0 0 5px $clr-grey-4;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+
+  // .banner-img {
+  //   //   width: 100%;
+  //   //   background-position: center;
+  //   //   background-repeat: no-repeat;
+  //   //   background-size: cover;
+  // }
+
+  .profile-img {
+    //   object-fit: contain;
+    width: 15rem;
+    //   max-width: 100%;
+    filter: brightness(75%);
+    margin-top: 1rem;
+  }
+
+  .name {
+    font-size: $primary-font;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    display: inline-block;
+    font-family: $primary-font;
+    border: 2px solid $primary_color;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 24px;
+    color: $primary_color;
+    background-color: $black;
+  }
 }
