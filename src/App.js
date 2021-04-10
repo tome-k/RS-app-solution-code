@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import NotFound from "./pages/NotFound";
 import Footerr from "./components/Footerr";
-// import Grid from "./pages/Grid";
 // import Footer from "./components/Footer";
 
 function App(props) {
