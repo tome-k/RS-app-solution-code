@@ -2,10 +2,11 @@ import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import More from "./pages/More";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import NotFound from "./pages/NotFound";
 import Footerr from "./components/Footerr";
+import Moree from "./pages/Moree";
 // import Footer from "./components/Footer";
 
 function App(props) {
@@ -20,7 +21,7 @@ function App(props) {
           <More title="title" />
         </Route>
         <Route exact path="/about">
-          <About />
+          <Moree />
         </Route>
         <Route path="*">
           <NotFound />
