@@ -6,9 +6,9 @@ import Card from "../components/Card";
 import BackImg_1 from "../assets/stoicism_000.jpg";
 import BackImg_2 from "../assets/stoicism_001.jpg";
 import BackImg_3 from "../assets/stoicism_002.jpg";
-import BackImg_4 from "../assets/stoicism_003.jpg";
-import BackImg_6 from "../assets/stoicism_005.jpg";
-import BackImg_8 from "../assets/stoicism_007.jpg";
+// import BackImg_4 from "../assets/stoicism_003.jpg";
+// import BackImg_6 from "../assets/stoicism_005.jpg";
+// import BackImg_8 from "../assets/stoicism_007.jpg";
 import "./Moreee.scss";
 
 function Moree() {

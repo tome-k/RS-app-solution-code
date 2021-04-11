@@ -1,85 +1,21 @@
 @import "../shared.scss";
 
 .more {
-  display: grid;
-  gap: 200px;
-  grid-template-columns: repeat(auto-fit, 21rem);
-  //   grid-template-columns: repeat(auto-fit, minmax(20rem, max-content));
-  grid-template-rows: auto;
-  justify-content: space-evenly;
-  padding: 3.3rem 1.5rem;
   background: url("../assets/giammarco.jpg") center/cover no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   object-fit: contain;
-  //   background: rgba(11, 18, 22, 0.548); /* fallback for old browsers */
-  //   background: -webkit-linear-gradient(
-  //     to bottom,
-  //     rgba(110, 146, 170, 0.4),
-  //     rgba(11, 18, 22, 0.548)
-  //   ); /* Chrome 10-25, Safari 5.1-6 */
-  //   background: linear-gradient(
-  //     to bottom,
-  //     rgba(98, 133, 156, 0.5),
-  //     rgba(11, 18, 22, 0.548)
-  //   );
-  @include m_q(939px) {
-    gap: 50px;
-  }
+  &__wrapper {
+    display: grid;
+    place-items: center;
+    gap: 200px;
+    grid-template-columns: repeat(auto-fit, 21rem);
+    //   grid-template-columns: repeat(auto-fit, minmax(20rem, max-content));
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    padding: 3.3rem 1.5rem;
 
-  &__card {
-    overflow: hidden;
-    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
-    background-color: #fff;
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    margin: 0.5rem;
-    transition: all 300ms ease-in;
-
-    &:hover {
-      transform: translateY(-1rem);
-      box-shadow: 1px 3px 12px rgba($clr-grey-4, 0.8);
-      box-shadow: 0 0 0 5px $clr-grey-4;
-      border-radius: 5px;
-      outline: none;
+    @include m_q(939px) {
+      gap: 50px;
     }
-  }
-
-  // &__img-wrapper {
-  //   //   width: 100%;
-  //   //   background-position: center;
-  //   //   background-repeat: no-repeat;
-  //   //   background-size: cover;
-  // }
-
-  &__img {
-    //   object-fit: contain;
-    width: 15rem;
-    //   max-width: 100%;
-    filter: brightness(75%);
-    margin-top: 1rem;
-  }
-
-  &__title {
-    font-size: $primary-font;
-    font-weight: bold;
-    font-size: 1.8rem;
-  }
-
-  &__description {
-    margin: 1rem 2rem;
-    font-size: 0.9rem;
-  }
-
-  &__btn {
-    display: inline-block;
-    font-family: $primary-font;
-    border: 2px solid $primary_color;
-    border-radius: 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 10px 24px;
-    color: $primary_color;
-    background-color: $black;
   }
 }
