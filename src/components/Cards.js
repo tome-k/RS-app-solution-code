@@ -4,13 +4,13 @@ import "./Cards.scss";
 function Cards({ img, title, description }) {
   return (
     <div>
-      <div className="more__card">
-        <div className="more__img-wrapper">
-          <img src={img} alt="" className="more__img" />
+      <div className="card">
+        <div className="card__body">
+          <img src={img} alt="" className="card__img" />
+          <h2 className="card__title">{title}</h2>
+          <p className="card__description">{description}</p>
         </div>
-        <h2 className="more__title">{title}</h2>
-        <p className="more__description">{description}</p>
-        <button className="more__btn">Follow</button>
+        <button className="card__btn">Follow This</button>
       </div>
     </div>
   );

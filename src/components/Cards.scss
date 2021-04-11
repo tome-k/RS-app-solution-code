@@ -1,6 +1,6 @@
 @import "../shared.scss";
 
-.more__card {
+.card {
   overflow: hidden;
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
   background-color: #fff;
@@ -10,14 +10,6 @@
   margin: 0.5rem;
   transition: all 300ms ease-in;
 
-  &:hover {
-    transform: translateY(-1rem);
-    box-shadow: 1px 3px 12px rgba($clr-grey-4, 0.8);
-    box-shadow: 0 0 0 5px $clr-grey-4;
-    border-radius: 5px;
-    outline: none;
-  }
-
   // &__img-wrapper {
   //   //   width: 100%;
   //   //   background-position: center;
@@ -25,33 +17,46 @@
   //   //   background-size: cover;
   // }
 
-  .more__img {
+  &__img {
     object-fit: contain;
     width: 15rem;
     filter: brightness(75%);
     margin-top: 1rem;
   }
 
-  &.more_title {
+  &__title {
     font-size: $primary-font;
     font-weight: bold;
     font-size: 1.8rem;
   }
 
-  .more__description {
+  &__description {
     margin: 1rem 2rem;
     font-size: 0.9rem;
   }
 
-  .more__btn {
-    display: inline-block;
+  &__btn {
+    padding: 1rem 3rem;
+    margin: 1rem;
     font-family: $primary-font;
-    border: 2px solid $primary_color;
-    border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
-    padding: 10px 24px;
-    color: $primary_color;
+    display: inline-block;
+    border: 2px solid $black;
+    border-radius: 5px;
+    color: $black;
+    background-color: transparent;
+  }
+
+  &:hover {
+    transform: translateY(-1rem);
+    box-shadow: 1px 3px 12px rgba($clr-grey-4, 0.8);
+    box-shadow: 0 0 0 5px $clr-grey-4;
+    border-radius: 5px;
+    outline: none;
+  }
+  &:hover &__btn {
     background-color: $black;
+    color: $primary_color;
   }
 }
