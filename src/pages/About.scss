@@ -6,4 +6,49 @@
   background: url("../assets/constantinos.jpg") center/cover no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
   object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    margin-top: 5rem;
+    font-size: 6vw;
+    color: $primary_color;
+    text-shadow: 7px 2px 2px $black;
+  }
+
+  &__column-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $primary_color;
+  }
+  &__column-desc {
+    padding: 1rem;
+    color: $primary_color;
+    font-family: $secondary-font;
+    // font-style: italic;
+    font-size: 1vw;
+  }
+
+  &__column-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    @include m_q(650px) {
+      flex-direction: column;
+    }
+  }
+  &__column-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 5px;
+  }
 }
