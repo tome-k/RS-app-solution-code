@@ -42,7 +42,7 @@
   width: 75%;
   height: 75%;
   object-fit: contain;
-  filter: brightness(66%);
+  filter: brightness(60%);
   @include m_q(699px) {
     margin-top: -20px;
   }
