@@ -17,32 +17,32 @@ function More() {
         <Cards
           img={BackImg_3}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
         <Cards
           img={BackImg_1}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
         <Cards
           img={BackImg_2}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
         <Cards
           img={BackImg_4}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
         <Cards
           img={BackImg_8}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
         <Cards
           img={BackImg_6}
           title="The Stoic Book"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis deleniti dicta ab."
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem a facilis"
         />
       </div>
     </section>
