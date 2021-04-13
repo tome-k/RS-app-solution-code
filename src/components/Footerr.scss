@@ -10,14 +10,14 @@
   position: relative;
   background: rgba(11, 18, 22, 0.548); /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
-    rgba(110, 146, 170, 0.4),
-    rgba(11, 18, 22, 0.548)
+    to bottom,
+    rgba(11, 18, 22, 0.548),
+    rgba(34, 39, 42, 0.4)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
-    rgba(98, 133, 156, 0.5),
-    rgba(11, 18, 22, 0.548)
+    to bottom,
+    rgba(11, 18, 22, 0.548),
+    rgba(42, 47, 51, 0.5)
   );
   @include m_q(629px) {
     padding: 1rem 0;

@@ -12,7 +12,8 @@ import Footerr from "./components/Footerr";
 function App(props) {
   return (
     <BrowserRouter>
-      {(window.location.pathname === "/", "/more" ? <Navbar /> : null)}
+      <Navbar />
+      {/* {window.location.pathname === "/" ? <Navbar /> : null} */}
       <Switch>
         <Route exact path="/">
           <Home />
@@ -27,7 +28,8 @@ function App(props) {
           <NotFound />
         </Route>
       </Switch>
-      {(window.location.pathname === "/", "/more" ? <Footerr /> : null)}
+      <Footerr />
+      {/* {window.location.pathname === "/" ? <Footerr /> : null} */}
     </BrowserRouter>
   );
 }
