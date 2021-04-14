@@ -1,0 +1,28 @@
+@import "../shared.scss";
+
+.article {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 5px;
+
+  &__banner-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  &__column-title {
+    font-size: 2vw;
+    text-align: center;
+    color: $primary_color;
+  }
+  &__column-desc {
+    padding: 1rem;
+    color: $primary_color;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-size: 1vw;
+  }
+}
