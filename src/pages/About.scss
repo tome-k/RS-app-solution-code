@@ -47,8 +47,22 @@
     }
   }
   &__column-box {
+    position: relative;
     background: rgba(0, 0, 0, 0.7);
     padding: 1rem;
     border-radius: 5px;
+  }
+
+  &__banner-icon {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
+
+  &__icon {
+    // object-fit: contain;
+    color: $primary_color;
+    font-size: 4vw;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { GiColumnVase, GiAncientColumns } from "react-icons/gi";
 import "./About.scss";
 
 function About() {
@@ -10,6 +10,10 @@ function About() {
       </div>
       <div className="about__column-wrapper">
         <div className="about__column-box">
+          <div className="about__banner-icon">
+            {/* <GiColumnVase className="about__icon" /> */}
+            <GiAncientColumns className="about__icon" />
+          </div>
           <h2 className="about__column-title">This is header</h2>
           <p className="about__column-desc">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
