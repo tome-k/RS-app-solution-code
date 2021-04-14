@@ -37,9 +37,9 @@
     font-size: 1rem;
     font-weight: bold;
     display: inline-block;
-    border: 2px solid $black-850;
+    border: 2px solid $clr-grey-1;
     border-radius: 5px;
-    color: $black;
+    color: $clr-grey-1;
     background-color: transparent;
   }
 
@@ -47,7 +47,7 @@
     transform: translateY(-1.1rem);
   }
   &:hover &__btn {
-    background-color: $black-850;
+    background-color: $clr-grey-1;
     color: $primary_color;
   }
 }

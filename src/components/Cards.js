@@ -10,7 +10,7 @@ function Cards({ img, title, description }) {
           <h2 className="card__title">{title}</h2>
           <p className="card__description">{description}</p>
         </div>
-        <button className="card__btn">Follow This</button>
+        <button className="card__btn">Buy this</button>
       </div>
     </div>
   );
