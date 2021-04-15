@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   &__column-title {
@@ -29,7 +29,7 @@
     font-size: 1vw;
     @include m_q(768px) {
       padding: 0.3rem;
-      max-width: 100ch;
+      max-width: 120ch;
       font-size: 1.9vw;
     }
   }
