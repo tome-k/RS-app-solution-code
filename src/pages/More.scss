@@ -8,7 +8,7 @@
     display: grid;
     place-items: center;
     gap: 200px;
-    grid-template-columns: repeat(auto-fit, 21rem);
+    grid-template-columns: repeat(auto-fit, 20rem);
     //   grid-template-columns: repeat(auto-fit, minmax(20rem, max-content));
     grid-template-rows: auto;
     justify-content: space-evenly;

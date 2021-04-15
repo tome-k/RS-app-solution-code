@@ -16,7 +16,7 @@
     align-items: center;
   }
   @include m_q(499px) {
-    max-height: 1024px;
+    max-height: 999px;
   }
 
   &__header {
