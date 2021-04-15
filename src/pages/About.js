@@ -11,9 +11,7 @@ import "./About.scss";
 function About() {
   return (
     <section className="about">
-      <div className="about__container">
-        <h2 className="about__header">About Us Section</h2>
-      </div>
+      <h2 className="about__header">About Us Section</h2>
       <h5 className="about__subheader">Sub Header</h5>
       <div className="about__column-wrapper">
         <Article

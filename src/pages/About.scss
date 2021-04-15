@@ -8,40 +8,55 @@
   object-fit: contain;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
+  @include m_q(768px) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  @include m_q(499px) {
+    max-height: 1024px;
+  }
 
   &__header {
-    margin-top: 15rem;
-    font-size: 5.5vw;
+    margin-top: 10rem;
+    font-size: 5vw;
     color: $clr-grey-3;
     text-shadow: 7px 2px 2px $black;
+    @include m_q(768px) {
+      font-size: 7.5vw;
+    }
   }
   &__subheader {
     margin-bottom: 10rem;
     font-size: 2vw;
     color: $clr-grey-5;
     text-shadow: 7px 2px 2px $black;
-  }
-
-  &__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include m_q(768px) {
+      margin-top: 0.5rem;
+      margin-bottom: 3rem;
+      font-size: 4vw;
+    }
   }
 
   &__column-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 2rem;
+    padding: 5rem 1rem;
     gap: 2rem;
     @include m_q(768px) {
       flex-direction: column;
+      max-height: 100vh;
+      gap: 1rem;
     }
   }
   &__icon {
     color: $brown;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    @include m_q(768px) {
+      font-size: 6vw;
+    }
   }
 }

@@ -17,12 +17,20 @@
     font-size: 2vw;
     text-align: center;
     color: $clr-grey-3;
+    @include m_q(768px) {
+      font-size: 3.5vw;
+    }
   }
   &__column-desc {
-    padding: 1rem;
+    padding: 0.2rem;
     color: $secondary_color;
     font-family: $secondary-font;
     font-style: italic;
     font-size: 1vw;
+    @include m_q(768px) {
+      padding: 0.3rem;
+      max-width: 100ch;
+      font-size: 1.9vw;
+    }
   }
 }
