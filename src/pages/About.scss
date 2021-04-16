@@ -21,22 +21,18 @@
 
   &__header {
     margin-top: 10rem;
-    font-size: 5vw;
+    font-size: clamp(2.2rem, 5vw, 5.5rem);
     color: $clr-grey-3;
     text-shadow: 7px 2px 2px $black;
-    @include m_q(768px) {
-      font-size: 7.5vw;
-    }
   }
   &__subheader {
-    margin-bottom: 10rem;
-    font-size: 2vw;
+    margin-bottom: 5rem;
+    font-size: clamp(1.3rem, 3vw, 3.5rem);
     color: $clr-grey-5;
     text-shadow: 7px 2px 2px $black;
     @include m_q(768px) {
       margin-top: 0.5rem;
-      margin-bottom: 3rem;
-      font-size: 4vw;
+      margin-bottom: 2rem;
     }
   }
 
@@ -48,15 +44,12 @@
     gap: 1.8rem;
     @include m_q(768px) {
       flex-direction: column;
-      max-height: 100vh;
-      gap: 0.9rem;
+      max-height: 90vh;
+      gap: 2rem;
     }
   }
   &__icon {
     color: $brown;
-    font-size: 3.5vw;
-    @include m_q(768px) {
-      font-size: 5.4vw;
-    }
+    font-size: clamp(1.7rem, 2.5vw, 3rem);
   }
 }
