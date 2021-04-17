@@ -45,6 +45,10 @@
 
   &:hover {
     transform: translateY(-1.1rem);
+    box-shadow: 1px 3px 12px rgba($clr-grey-5, 0.3);
+    box-shadow: 0 0 0 5px $clr-grey-5;
+    border-radius: 15px;
+    outline: none;
   }
   &:hover &__btn {
     background-color: $clr-grey-1;
