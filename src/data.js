@@ -1,5 +1,5 @@
 import Img_1 from "./assets/athens.jpg";
-import Img_2 from "./assets/book_33.jpg";
+import Img_2 from "./assets/ruin.jpg";
 import Img_3 from "./assets/greece.jpg";
 import Img_4 from "./assets/greece2.jpg";
 import Img_5 from "./assets/parthenon.jpg";
@@ -7,7 +7,7 @@ import Img_6 from "./assets/temple.jpg";
 import Img_7 from "./assets/korfu.jpg";
 import Img_8 from "./assets/columns21.jpg";
 import Img_9 from "./assets/constantinos.jpg";
-import Img_10 from "./assets/akropolis1.jpg";
+import Img_10 from "./assets/desert3.jpg";
 
 const views = [
   {
