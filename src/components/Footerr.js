@@ -12,7 +12,7 @@ function Footer_2(props) {
         <GiIonicColumn className="footer__title-icon" />
         <LinkScroll
           to="home"
-          className="social-logo"
+          className="footer__social-logo"
           spy={true}
           smooth={true}
           offset={-75}

@@ -54,7 +54,7 @@
     padding: 0 20px;
     line-height: 1.1;
     font-size: 1.1rem;
-    color: $clr-grey-5;
+    color: $secondary_color;
     @include m_q(768px) {
       font-size: 1rem;
       line-height: 1;
@@ -74,7 +74,7 @@
     }
 
     &:hover {
-      color: $brown_two;
+      color: $clr-grey-4;
     }
   }
   &__icon {
