@@ -53,7 +53,7 @@ const views = [
     name: "Seneca",
     title: "Now",
     quote:
-      "“Nothing, to my way of thinking, is a better proof of a well ordered mind than a man’s ability to stop just where he is and pass some time in his own company.”",
+      "““If a man knows not which port he sails, no wind is favorable.” – Seneca”",
   },
   {
     id: 7,
@@ -84,7 +84,7 @@ const views = [
     name: "Marcus Aurelius",
     title: "Life",
     quote:
-      "“Think of the life you have lived until now as over and, as a dead man, see what’s left as a bonus and live it according to Nature. Love the hand that fate deals you and play it as your own, for what could be more fitting?”",
+      "“You could leave life right now. Let that determine what you do and say and think.” – Marcus Aurelius”",
   },
 ];
 
