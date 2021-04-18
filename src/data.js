@@ -50,10 +50,10 @@ const views = [
   {
     id: 6,
     image: Img_6,
-    name: "Epictetus",
-    title: "Desire",
+    name: "Seneca",
+    title: "Now",
     quote:
-      "Curb your desire—don’t set your heart on so many things and you will get what you need",
+      "“Nothing, to my way of thinking, is a better proof of a well ordered mind than a man’s ability to stop just where he is and pass some time in his own company.”",
   },
   {
     id: 7,
@@ -66,26 +66,25 @@ const views = [
   {
     id: 8,
     image: Img_8,
-    name: "Epictetus",
-    title: "Desire",
-    quote:
-      "Curb your desire—don’t set your heart on so many things and you will get what you need",
+    name: "Seneca",
+    title: "Troubles",
+    quote: "“How does it help…to make troubles heavier by bemoaning them?”",
   },
   {
     id: 9,
     image: Img_9,
     name: "Epictetus",
-    title: "Desire",
+    title: "You",
     quote:
-      "Curb your desire—don’t set your heart on so many things and you will get what you need",
+      "“First say to yourself what you would be; and then do what you have to do.”",
   },
   {
     id: 10,
     image: Img_10,
-    name: "Epictetus",
-    title: "Desire",
+    name: "Marcus Aurelius",
+    title: "Life",
     quote:
-      "Curb your desire—don’t set your heart on so many things and you will get what you need",
+      "“Think of the life you have lived until now as over and, as a dead man, see what’s left as a bonus and live it according to Nature. Love the hand that fate deals you and play it as your own, for what could be more fitting?”",
   },
 ];
 
