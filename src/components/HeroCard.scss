@@ -1,0 +1,62 @@
+@import "../shared.scss";
+
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 400px;
+  overflow: hidden;
+  background: #fff;
+  color: $clr-grey-3;
+  border-radius: 5px;
+  box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 300ms ease-in;
+
+  &:hover {
+    transform: scale(0.9);
+    // transform: translateY(-0.8rem);
+    box-shadow: 1px 3px 12px rgba($clr-grey-8, 0.8);
+    box-shadow: 0 0 0 5px $clr-grey-6;
+    border-radius: 5px;
+    outline: none;
+
+    @include m_q(975px) {
+      transform: scale(0.8);
+      box-shadow: 1px 3px 10px rgba($clr-grey-8, 0.8);
+      box-shadow: 0 0 0 5px $clr-grey-6;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+  @include m_q(699px) {
+    flex: 0 1 400px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+  }
+  &__title {
+    color: $clr-grey-2;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  &__snippet {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  &__read {
+    display: flex;
+    justify-content: flex-end;
+    color: $clr-grey-2;
+    margin-top: auto;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
