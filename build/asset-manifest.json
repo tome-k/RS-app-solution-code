@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ede84fa9.chunk.css",
+    "main.js": "/static/js/main.8586a567.chunk.js",
+    "main.js.map": "/static/js/main.8586a567.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.997ea4cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.997ea4cc.js.map",
+    "static/js/2.b58dee97.chunk.js": "/static/js/2.b58dee97.chunk.js",
+    "static/js/2.b58dee97.chunk.js.map": "/static/js/2.b58dee97.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ede84fa9.chunk.css.map": "/static/css/main.ede84fa9.chunk.css.map",
+    "static/js/2.b58dee97.chunk.js.LICENSE.txt": "/static/js/2.b58dee97.chunk.js.LICENSE.txt",
+    "static/media/athens.7c1d994a.jpg": "/static/media/athens.7c1d994a.jpg",
+    "static/media/columns21.2ae8c318.jpg": "/static/media/columns21.2ae8c318.jpg",
+    "static/media/About.scss": "/static/media/constantinos.a72118df.jpg",
+    "static/media/desert3.b42d3de4.jpg": "/static/media/desert3.b42d3de4.jpg",
+    "static/media/epiciteus-2.c0256157.jpg": "/static/media/epiciteus-2.c0256157.jpg",
+    "static/media/More.scss": "/static/media/giammarco.eedbda83.jpg",
+    "static/media/greece.a823ccd2.jpg": "/static/media/greece.a823ccd2.jpg",
+    "static/media/greece2.7b047d69.jpg": "/static/media/greece2.7b047d69.jpg",
+    "static/media/korfu.76ef01db.jpg": "/static/media/korfu.76ef01db.jpg",
+    "static/media/marcus-aurelius2.536ff22a.jpg": "/static/media/marcus-aurelius2.536ff22a.jpg",
+    "static/media/parthenon.8ec9f96e.jpg": "/static/media/parthenon.8ec9f96e.jpg",
+    "static/media/NotFound.scss": "/static/media/rui-silva-.ee3792d6.jpg",
+    "static/media/ruin.f5eb277b.jpg": "/static/media/ruin.f5eb277b.jpg",
+    "static/media/seneca_br.d6cce06e.jpg": "/static/media/seneca_br.d6cce06e.jpg",
+    "static/media/stoicism_000.2b6c96d0.jpg": "/static/media/stoicism_000.2b6c96d0.jpg",
+    "static/media/stoicism_001.4a93ab48.jpg": "/static/media/stoicism_001.4a93ab48.jpg",
+    "static/media/stoicism_002.1311b44e.jpg": "/static/media/stoicism_002.1311b44e.jpg",
+    "static/media/stoicism_003.96f7be9c.jpg": "/static/media/stoicism_003.96f7be9c.jpg",
+    "static/media/stoicism_005.724472f5.jpg": "/static/media/stoicism_005.724472f5.jpg",
+    "static/media/stoicism_007.1097d0bf.jpg": "/static/media/stoicism_007.1097d0bf.jpg",
+    "static/media/temple.bb030395.jpg": "/static/media/temple.bb030395.jpg",
+    "static/media/zenon2.1f79a392.jpg": "/static/media/zenon2.1f79a392.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.997ea4cc.js",
+    "static/js/2.b58dee97.chunk.js",
+    "static/css/main.ede84fa9.chunk.css",
+    "static/js/main.8586a567.chunk.js"
+  ]
+}
